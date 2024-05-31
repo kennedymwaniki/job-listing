@@ -8,6 +8,20 @@ body {
   height: 140px;
   background-image: url("images/bg-header-desktop.svg");
 }
+.searchbar {
+  width: 100%;
+  max-width: 200px;
+  margin: 20px;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 30px;
+}
 
 .container {
   width: 80%;
@@ -93,4 +107,7 @@ h3 {
   font-size: 0.8em;
   margin-right: 5px;
   display: inline-block;
+}
+
+@media (max-width: 768px) {
 }
