@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.banner {
+  height: 140px;
+  background-image: url("images/bg-header-desktop.svg");
+}
 
 .container {
   width: 80%;
@@ -11,7 +15,7 @@ body {
   padding: 20px;
 }
 
-.job-card {
+.jobs {
   display: flex;
   align-items: center;
   background: #fff;
@@ -19,11 +23,8 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   padding: 10px;
+  border-left: 17px splid aqua;
   transition: transform 0.3s;
-}
-
-.job-card:hover {
-  transform: scale(1.02);
 }
 
 .logo img {
@@ -81,11 +82,11 @@ h3 {
   font-size: 1.5em;
 }
 
-.tags {
+.qualifications {
   margin-top: 10px;
 }
 
-.tags span {
+.qualifications span {
   background: #e0e0e0;
   border-radius: 5px;
   padding: 5px 10px;
